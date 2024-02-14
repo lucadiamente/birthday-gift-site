@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            body {
+                text-align: center;
+                font-family: 'happy monkey', cursive;
+                background: linear-gradient(#0dad205a, #cf1b1b67);
+                color: #ffffff;
+            }
+            #img-ondra {
+                border-radius: 50%;
+                width: 150px;
+                border: 6px solid #cf1b1bca;
+            }
+            h1, h2, h4, h3, p {
+                text-shadow: 0 0 1px black;
+            }
+            #bday-age {
+                background: #cf1b1bca;
+                padding: 5px 10px;
+                border-radius: 5px;
+                margin: 8px 0 10px 0;
+            }
+            #bday-date {
+                background: #cf1b1bca;
+                padding: 5px 10px;
+                border-radius: 5px;
+                margin: 0;
+            }
+            #header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .gift-img {
+                background-image: url("gift-cover.jpg");
+                background-size: cover;
+                width: 400px;
+                height: 400px;
+                border: 6px solid white;
+                border-radius: 10px;
+                margin: 0 auto;
+            }
+            #gift-img-climb:hover {
+                background-image: url("giphy-5.gif")
+            }
+            #gift-img-point:hover {
+                background-image: url("giphy.gif");
+            }
+            #gift-img-yes:hover {
+                background-image: url("giphy-2.gif");
+            }
+            #gift-img-best:hover {
+                background-image: url("giphy-3.gif");
+            }
+            #gift-img-strong:hover {
+                background-image: url("giphy-4.gif");
+            }
+            .gift-section {
+                margin-top: 50px;
+            }
+            .gift-title {
+                margin-bottom: 10px;
+            }
+            .gift-hint {
+                margin-top: 0;
+            }
+            .footer {
+                width: 400px;
+                margin: 40px auto 20px auto;
+                font-style: italic;
+            }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <h1>Today is Adam Ondra's Birthday🎉</h1>
+            <img id="img-ondra" src="adam-ondra.webp">
+            <h2 id="bday-age">31 Years Old</h2>
+            <h4 id="bday-date">05.02.2024</h4>
+        </div>
+        <div class="gift-section">
+            <h2 class="gift-title">Adam Ondra is arguably the best climber🤷‍♂️</h2>
+            <h3 class="gift-hint">(Hover over the gift)</h3>
+            <div class="gift-img" id="gift-img-point"></div>
+        </div>
+        <div class="gift-section">
+            <h2 class="gift-title">How people react when Adam arrives at the crag😍</h2>
+            <div class="gift-img" id="gift-img-yes"></div>
+        </div>
+        <div class="gift-section">
+            <h2 class="gift-title">Every climber who isn't Adam Ondra👇</h2>
+            <div class="gift-img" id="gift-img-best"></div>
+        </div>
+        <div class="gift-section">
+            <h2 class="gift-title">The only person as strong as Adam Ondra💪</h2>
+            <div class="gift-img" id="gift-img-strong"></div>
+        </div>
+        <div class="gift-section">
+            <h2 class="gift-title">Adam on the wall be like🧗</h2>
+            <div class="gift-img" id="gift-img-climb"></div>
+        </div>
+        <div class="footer">
+            <p>Wann check out Adam Ondra's website? Click <a target="_blank" href="https://www.adamondra.com">here</a>!</p>
+        </div>
+    </body>
+</html>
